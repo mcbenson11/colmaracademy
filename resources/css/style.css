@@ -1,7 +1,72 @@
-.mobileheader {
-  visibility: hidden;
+body {
+  font-family: "Montserrat", "Helvetica", "sans-serif";
 }
 
-.mobileinfo {
-  visibility: hidden;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
+
+/*Header*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  color: #686868;
+  background-color: #fff;
+}
+
+.header div, nav {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.header span {
+  font-size: 22px;
+  margin: auto 0;
+}
+
+#colmar {
+  color: #3d3d3d;
+  font-weight: 600;
+}
+
+#academy {
+  color: #9b9b9b;
+}
+
+.header nav ul li {
+  display: inline-block;
+  padding: 0 8px;
+}
+
+.mobileheader {
+  display: none;
+}
+
+/*Information*/
+
+.mobileinfo {
+  display: none;
+}
+
+/*Footer*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #e2e2e2;
+  color: #9b9b9b;
+  height: 100px;
+  font-size: 12px;
+  margin-top: 32px;
+}
+
+.footer p {
+  margin: 16px 24px auto 24px;
+}
+
+/*Mobile*/
