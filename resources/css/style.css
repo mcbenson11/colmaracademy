@@ -7,6 +7,10 @@ body {
   margin: 0 auto;
 }
 
+.flex {
+  display: flex;
+}
+
 /*Header*/
 
 .header {
@@ -47,10 +51,107 @@ body {
   display: none;
 }
 
+/*Banner*/
+
+.banner {
+  background-color: #e2e2e2;
+}
+
+.banner img {
+  width: 60%;
+  height: auto;
+  margin: 32px 24px;
+}
+
+.banner h1 {
+  font-weight: 800;
+  color: #3d3d3d;
+  font-size: 30px;
+}
+
+.banner h3 {
+  font-weight: 600;
+  font-size: 24;
+  color: #3d3d3d;
+}
+
+.banner p {
+  width: 200px;
+  padding: 8px 0;
+  color: #fff;
+  background-color: #3d3d3d;
+  text-align: center;
+}
+
 /*Information*/
+
+.info {
+  /*display: flex;*/
+}
+
+.largeinfo {
+  width: 60%;
+  height: auto;
+  margin: 32px 24px;
+}
+
+.largeinfo img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 32px;
+}
+
+.largeinfo h2 {
+  padding-bottom: 24px;
+  color: #3d3d3d;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.largeinfo span {
+  color: #3d3d3d;
+  font-size: 12px;
+}
+
+.smallinfo {
+  width: 40%;
+  border: 2px solid #e2e2e2;
+}
+
+.smallinfo img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.smallinfo h3 {
+  color: #3d3d3d;
+  line-height: 1.4;
+  font-size: 18px;
+}
+
+.info p {
+  color: #686868;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.smallinfo span {
+  color: #29abf2;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 300;
+}
 
 .mobileinfo {
   display: none;
+}
+
+/*Courses*/
+
+.courses {
+  background-color: #e2e2e2;
 }
 
 /*Footer*/
