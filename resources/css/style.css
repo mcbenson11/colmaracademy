@@ -2,6 +2,10 @@ body {
   font-family: "Montserrat", "Helvetica", "sans-serif";
 }
 
+div {
+  border: 1px solid red;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -152,6 +156,86 @@ body {
 
 .courses {
   background-color: #e2e2e2;
+}
+
+.courses h2 {
+  padding: 32px 0;
+  color: #3d3d3d;
+  font-weight: 800;
+  font-size: 28px;
+  text-align: center;
+}
+
+.courses h3 {
+  color: #3d3d3d;
+  line-height: 1.4;
+  font-size: 18px;
+}
+
+.courses p {
+  color: #686868;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.coursesgrid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 72px 32px 72px;
+}
+
+.coursesgrid img {
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.course {
+  width: 25%;
+  background-color: #fff;
+  margin: 8px;
+  padding: 16px;
+}
+
+/*Thesis*/
+
+.thesistitle {
+  padding: 32px 0;
+  color: #3d3d3d;
+  font-weight: 800;
+  font-size: 28px;
+  text-align: center;
+}
+
+.thesis {
+  display: flex;
+}
+
+.thesis p {
+  color: #686868;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.thesis h3 {
+  color: #3d3d3d;
+  line-height: 1.4;
+  font-size: 18px;
+}
+
+.thesisvideo {
+  width: 60%;
+  padding: 0 24px;
+}
+
+.smallthesis {
+  width: 40%;
+}
+
+.smallthesis img {
+  width: 40%;
 }
 
 /*Footer*/
