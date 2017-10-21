@@ -294,4 +294,36 @@ div {
   .header {
     display: none;
   }
+
+/*Banner*/
+
+/*Information*/
+  .largeinfo {
+    display: none;
+  }
+
+  .smallinfocontainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+/*Courses*/
+
+/*Thesis*/
+  .smallthesiscontainer {
+    display: none;
+  }
+
+  .thesisvideo {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .thesisvideo h3, p {
+    display: none;
+  }
+
+/*Footer*/
+
 }
