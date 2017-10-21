@@ -123,9 +123,14 @@ div {
 
 .smallinfo {
   width: 100%;
-  border: 2px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
   display: flex;
   align-items: center;
+}
+
+#noborder {
+  border: none;
 }
 
 .smallinfo img {
@@ -145,6 +150,7 @@ div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 32px 32px 32px auto;
 }
 
 .info p {
@@ -195,8 +201,8 @@ div {
 .coursesgrid {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
-  padding: 0 72px 32px 72px;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .coursesgrid img {
@@ -207,7 +213,7 @@ div {
 .course {
   width: 25%;
   background-color: #fff;
-  margin: 8px;
+  margin: 12px;
   padding: 16px;
 }
 
@@ -257,14 +263,17 @@ div {
 
 /*Footer*/
 
+.footerline {
+  border-top: 2px solid #e2e2e2;
+  margin-top: 32px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 2px solid #e2e2e2;
   color: #9b9b9b;
   height: 100px;
   font-size: 12px;
-  margin-top: 32px;
 }
 
 .footer p {
@@ -275,8 +284,11 @@ div {
 
 @media only screen and (max-width: 450px) {
 
+/*Header*/
   .mobileheader {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
   }
 
   .header {
