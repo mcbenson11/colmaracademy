@@ -219,12 +219,13 @@ body {
 }
 
 .mobilecourses {
+  background-color: #e2e2e2;
   display: none;
-  border-bottom: 2px solid #e2e2e2;
+  padding-bottom: 16px;
 }
 
 .mobilecourse {
-  background-color: #e2e2e2;
+  background-color: #3d3d3d;
   margin: 24px;
 }
 
@@ -237,7 +238,7 @@ body {
 }
 
 .mobilecourse h3 {
-  color: #3d3d3d;
+  color: #fff;
   line-height: 1.4;
   font-size: 18px;
   padding: 16px;
