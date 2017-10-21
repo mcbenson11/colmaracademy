@@ -65,7 +65,7 @@ div {
 }
 
 .bannerbox {
-  background-color: #fff;
+  background-color: #e2e2e2;
   max-width: 500px;
   padding: 24px;
   margin-top: 250px;
@@ -89,6 +89,10 @@ div {
   color: #fff;
   background-color: #3d3d3d;
   text-align: center;
+}
+
+.mobilebanner {
+  display: none;
 }
 
 /*Information*/
@@ -139,7 +143,7 @@ div {
   padding: 16px;
 }
 
-.smallinfo h3 {
+.smallinfo h3, .mobileinfo h3 {
   color: #3d3d3d;
   line-height: 1.4;
   font-size: 18px;
@@ -153,14 +157,14 @@ div {
   margin: 32px 32px 32px auto;
 }
 
-.info p {
+.info p, .mobileinfo p {
   color: #686868;
   font-size: 14px;
   line-height: 1.4;
   font-weight: 300;
 }
 
-.smallinfo span {
+.smallinfo span, .mobileinfo span {
   color: #29abf2;
   font-size: 14px;
   line-height: 1.4;
@@ -276,10 +280,17 @@ div {
 
 .smallthesiscontainer {
   width: 40%;
+  margin-right: 32px;
 }
 
 .smallthesis {
   padding: 16px;
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
+}
+
+#nobottomborder {
+  border-bottom: none;
 }
 
 .smallthesis img {
@@ -322,23 +333,39 @@ div {
 
 /*Banner*/
   .banner {
+    background-image: none;
+    height: auto;
+  }
 
+  .bannerbox {
+    margin: 0;
+  }
+
+  .mobilebanner {
+    display: block;
+    max-width: 450px;
+  }
+
+  .mobilebanner img {
+    max-width: 100%;
+    margin: 0;
   }
 
 
 /*Information*/
-  .largeinfo {
+  .info {
     display: none;
   }
 
-  .smallinfocontainer {
-    width: 100%;
-    margin: 0 auto;
+  .mobileinfo {
+    display: block;
+    padding: 16px;
+    max-width: 450px;
   }
 
-  .smallinfo div {
-    margin: 0;
-    padding: 0;
+  .mobileinfo img {
+    width: 100%;
+    margin: 10px auto;
   }
 
 /*Courses*/
