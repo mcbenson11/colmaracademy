@@ -217,6 +217,31 @@ div {
   padding: 16px;
 }
 
+.mobilecourses {
+  display: none;
+  border-bottom: 2px solid #e2e2e2;
+}
+
+.mobilecourse {
+  background-color: #e2e2e2;
+  margin: 24px;
+}
+
+.mobilecourses h2 {
+  color: #3d3d3d;
+  font-weight: 800;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 16px;
+}
+
+.mobilecourse h3 {
+  color: #3d3d3d;
+  line-height: 1.4;
+  font-size: 18px;
+  padding: 16px;
+}
+
 /*Thesis*/
 
 .thesistitle {
@@ -296,6 +321,10 @@ div {
   }
 
 /*Banner*/
+  .banner {
+
+  }
+
 
 /*Information*/
   .largeinfo {
@@ -307,7 +336,20 @@ div {
     margin: 0 auto;
   }
 
+  .smallinfo div {
+    margin: 0;
+    padding: 0;
+  }
+
 /*Courses*/
+  .courses {
+    display: none;
+  }
+
+  .mobilecourses {
+    display: block;
+  }
+
 
 /*Thesis*/
   .smallthesiscontainer {
@@ -325,5 +367,16 @@ div {
   }
 
 /*Footer*/
+ .footer {
+   flex-wrap: wrap;
+ }
+
+ .footer p {
+   margin: 0;
+ }
+
+ #hide {
+   display: none;
+ }
 
 }
