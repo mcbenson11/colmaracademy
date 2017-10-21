@@ -58,13 +58,17 @@ div {
 /*Banner*/
 
 .banner {
-  background-color: #e2e2e2;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
 }
 
-.banner img {
-  width: 60%;
-  height: auto;
-  margin: 32px 24px;
+.bannerbox {
+  background-color: #fff;
+  max-width: 500px;
+  padding: 24px;
+  margin-top: 250px;
 }
 
 .banner h1 {
@@ -90,7 +94,7 @@ div {
 /*Information*/
 
 .info {
-  /*display: flex;*/
+  display: flex;
 }
 
 .largeinfo {
@@ -118,8 +122,10 @@ div {
 }
 
 .smallinfo {
-  width: 40%;
+  width: 100%;
   border: 2px solid #e2e2e2;
+  display: flex;
+  align-items: center;
 }
 
 .smallinfo img {
@@ -132,6 +138,13 @@ div {
   color: #3d3d3d;
   line-height: 1.4;
   font-size: 18px;
+}
+
+.smallinfocontainer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .info p {
@@ -230,8 +243,12 @@ div {
   padding: 0 24px;
 }
 
-.smallthesis {
+.smallthesiscontainer {
   width: 40%;
+}
+
+.smallthesis {
+  padding: 16px;
 }
 
 .smallthesis img {
@@ -255,3 +272,14 @@ div {
 }
 
 /*Mobile*/
+
+@media only screen and (max-width: 450px) {
+
+  .mobileheader {
+    display: block;
+  }
+
+  .header {
+    display: none;
+  }
+}
