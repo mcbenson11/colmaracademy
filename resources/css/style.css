@@ -362,19 +362,11 @@ div {
     margin: 0;
   }
 
-  .thesisvideo h3, p {
+  .thesisvideo h3, .thesisvideo p{
     display: none;
   }
 
 /*Footer*/
- .footer {
-   flex-wrap: wrap;
- }
-
- .footer p {
-   margin: 0;
- }
-
  #hide {
    display: none;
  }
