@@ -28,6 +28,15 @@ body {
   padding: 0 24px;
 }
 
+.header nav ul li {
+  transition-property: color;
+  transition-duration: 750ms;
+}
+
+.header nav ul li:hover {
+  color: #21457f;
+}
+
 .header span {
   font-size: 22px;
   margin: auto 0;
@@ -58,6 +67,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 500px;
+  flex-grow: 1;
 }
 
 .bannerbox {
@@ -66,6 +76,13 @@ body {
   padding: 24px;
   position: relative;
   top: 250px;
+  opacity: 0.9;
+  transition-property: opacity;
+  transition-duration: 750ms;
+}
+
+.bannerbox:hover {
+  opacity: 1;
 }
 
 .banner h1 {
@@ -86,6 +103,12 @@ body {
   color: #fff;
   background-color: #3d3d3d;
   text-align: center;
+  transition-property: background-color;
+  transition-duration: 750ms;
+}
+
+.banner p:hover {
+  background-color: #21457f;
 }
 
 .mobilebanner {
@@ -166,6 +189,12 @@ body {
   font-size: 14px;
   line-height: 1.4;
   font-weight: 300;
+  transition-property: font-size;
+  transition-duration: 250ms;
+}
+
+.smallinfo span:hover {
+  font-size: 15px;
 }
 
 .mobileinfo {
@@ -216,6 +245,12 @@ body {
   background-color: #fff;
   margin: 12px;
   padding: 16px;
+  transition-property: width;
+  transition-duration: 500ms;
+}
+
+.course:hover {
+  width: 30%;
 }
 
 .mobilecourses {
@@ -315,9 +350,22 @@ body {
 }
 
 /*Mid-size*/
+
 @media only screen and (max-width: 672px) {
 
- /*Courses*/
+/*Header*/
+  .mobileheader {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+
+  .header {
+    display: none;
+  }
+
+
+/*Courses*/
   .course {
     width: 35%;
   }
@@ -331,17 +379,6 @@ body {
 /*Mobile*/
 
 @media only screen and (max-width: 450px) {
-
-/*Header*/
-  .mobileheader {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-  }
-
-  .header {
-    display: none;
-  }
 
 /*Banner*/
   .banner {
