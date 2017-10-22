@@ -314,6 +314,20 @@ body {
   margin: 16px 24px auto 24px;
 }
 
+/*Mid-size*/
+@media only screen and (max-width: 672px) {
+
+ /*Courses*/
+  .course {
+    width: 35%;
+  }
+
+  .coursesgrid {
+    justify-content: space-around;
+  }
+
+}
+
 /*Mobile*/
 
 @media only screen and (max-width: 450px) {
@@ -332,7 +346,6 @@ body {
 /*Banner*/
   .banner {
     background-image: none;
-    height: auto;
   }
 
   .bannerbox {
