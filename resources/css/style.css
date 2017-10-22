@@ -29,12 +29,13 @@ body {
 }
 
 .header nav ul li {
-  transition-property: color;
-  transition-duration: 750ms;
+  transition-property: color, font-size;
+  transition-duration: 750ms, 500ms;
 }
 
 .header nav ul li:hover {
   color: #21457f;
+  font-size: 18px;
 }
 
 .header span {
@@ -103,12 +104,14 @@ body {
   color: #fff;
   background-color: #3d3d3d;
   text-align: center;
-  transition-property: background-color;
+  font-size: 16px;
+  transition-property: background-color, font-size;
   transition-duration: 750ms;
 }
 
 .banner p:hover {
   background-color: #21457f;
+  font-size: 17px;
 }
 
 .mobilebanner {
@@ -167,6 +170,12 @@ body {
   color: #3d3d3d;
   line-height: 1.4;
   font-size: 18px;
+  transition-property: color;
+  transition-duration: 500ms;
+}
+
+.smallinfo h3:hover {
+  color: #21457f;
 }
 
 .smallinfocontainer {
@@ -245,12 +254,15 @@ body {
   background-color: #fff;
   margin: 12px;
   padding: 16px;
-  transition-property: width;
-  transition-duration: 500ms;
+  /*transition-property: width;
+  transition-duration: 250ms;*/
+  transition-property: box-shadow;
+  transition-duration: 250ms;
 }
 
 .course:hover {
-  width: 30%;
+  /*width: 30%;*/
+  box-shadow: 0 0 20px #6b6b6b;
 }
 
 .mobilecourses {
@@ -304,6 +316,12 @@ body {
   color: #3d3d3d;
   line-height: 1.4;
   font-size: 18px;
+  transition-property: color;
+  transition-duration: 500ms;
+}
+
+.thesis h3:hover {
+  color: #21457f;
 }
 
 .thesisvideo {
