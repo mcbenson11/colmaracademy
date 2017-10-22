@@ -355,7 +355,7 @@ body {
   margin-top: 32px;
 }
 
-.footer {
+footer {
   display: flex;
   justify-content: space-between;
   color: #9b9b9b;
@@ -363,7 +363,7 @@ body {
   font-size: 12px;
 }
 
-.footer p {
+footer p {
   margin: 16px 24px auto 24px;
 }
 
